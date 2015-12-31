@@ -15,6 +15,7 @@
 		04D0DB7C1C3502D60058DCDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D0DB7A1C3502D60058DCDE /* LaunchScreen.storyboard */; };
 		04D0DB871C3502D60058DCDE /* iOS_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D0DB861C3502D60058DCDE /* iOS_AnimationTests.m */; };
 		04D0DB921C3502D60058DCDE /* iOS_AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D0DB911C3502D60058DCDE /* iOS_AnimationUITests.m */; };
+		04D0DBA41C350F0F0058DCDE /* arcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D0DBA31C350F0F0058DCDE /* arcView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		04D0DB8D1C3502D60058DCDE /* iOS-AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D0DB911C3502D60058DCDE /* iOS_AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_AnimationUITests.m; sourceTree = "<group>"; };
 		04D0DB931C3502D60058DCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D0DBA21C350F0F0058DCDE /* arcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arcView.h; sourceTree = "<group>"; };
+		04D0DBA31C350F0F0058DCDE /* arcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = arcView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				04D0DB701C3502D60058DCDE /* AppDelegate.m */,
 				04D0DB721C3502D60058DCDE /* ViewController.h */,
 				04D0DB731C3502D60058DCDE /* ViewController.m */,
+				04D0DBA21C350F0F0058DCDE /* arcView.h */,
+				04D0DBA31C350F0F0058DCDE /* arcView.m */,
 				04D0DB751C3502D60058DCDE /* Main.storyboard */,
 				04D0DB781C3502D60058DCDE /* Assets.xcassets */,
 				04D0DB7A1C3502D60058DCDE /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D0DB741C3502D60058DCDE /* ViewController.m in Sources */,
+				04D0DBA41C350F0F0058DCDE /* arcView.m in Sources */,
 				04D0DB711C3502D60058DCDE /* AppDelegate.m in Sources */,
 				04D0DB6E1C3502D60058DCDE /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				04D0DB981C3502D60058DCDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04D0DB991C3502D60058DCDE /* Build configuration list for PBXNativeTarget "iOS-AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				04D0DB9B1C3502D60058DCDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04D0DB9C1C3502D60058DCDE /* Build configuration list for PBXNativeTarget "iOS-AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				04D0DB9E1C3502D60058DCDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
